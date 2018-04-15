@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		D8421D47207FF3A9001DA0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8421D46207FF3A9001DA0FE /* AppDelegate.swift */; };
 		D8421D49207FF3A9001DA0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8421D48207FF3A9001DA0FE /* ViewController.swift */; };
-		D8421D4C207FF3A9001DA0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8421D4A207FF3A9001DA0FE /* Main.storyboard */; };
 		D8421D4E207FF3AD001DA0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8421D4D207FF3AD001DA0FE /* Assets.xcassets */; };
 		D8421D51207FF3AD001DA0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8421D4F207FF3AD001DA0FE /* LaunchScreen.storyboard */; };
+		D8421D592081628B001DA0FE /* Droid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8421D582081628B001DA0FE /* Droid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8421D43207FF3A9001DA0FE /* MoveAlongDroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveAlongDroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8421D46207FF3A9001DA0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8421D48207FF3A9001DA0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8421D4B207FF3A9001DA0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8421D4D207FF3AD001DA0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8421D50207FF3AD001DA0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8421D52207FF3AD001DA0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8421D582081628B001DA0FE /* Droid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Droid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				D8421D46207FF3A9001DA0FE /* AppDelegate.swift */,
 				D8421D48207FF3A9001DA0FE /* ViewController.swift */,
-				D8421D4A207FF3A9001DA0FE /* Main.storyboard */,
+				D8421D582081628B001DA0FE /* Droid.swift */,
 				D8421D4D207FF3AD001DA0FE /* Assets.xcassets */,
 				D8421D4F207FF3AD001DA0FE /* LaunchScreen.storyboard */,
 				D8421D52207FF3AD001DA0FE /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				D8421D51207FF3AD001DA0FE /* LaunchScreen.storyboard in Resources */,
 				D8421D4E207FF3AD001DA0FE /* Assets.xcassets in Resources */,
-				D8421D4C207FF3A9001DA0FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8421D49207FF3A9001DA0FE /* ViewController.swift in Sources */,
+				D8421D592081628B001DA0FE /* Droid.swift in Sources */,
 				D8421D47207FF3A9001DA0FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D8421D4A207FF3A9001DA0FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8421D4B207FF3A9001DA0FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8421D4F207FF3AD001DA0FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
